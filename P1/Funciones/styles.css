@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: cyan;
+    background-color: #f0f0f0;
     margin: 5px;
     padding: 0;
     display: flex;
@@ -12,4 +12,31 @@ body{
     padding: 10px 20px;
     margin: 5px;
     font-size: 16px;
+}
+.section-t {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+}
+
+.div-t {
+    background-color: #ffebcd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.div-t h2 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.div-t p {
+    color: #666666;
+    margin: 0;
 }

@@ -11,19 +11,20 @@
 </header>
 <body>
 
-
-    <label for="valor1">Valor 1:</label>
-    <input type="number" id="valor1"><br><br>
-    <label for="valor2">Valor 2:</label>
-    <input type="number" id="valor2"><br><br>
-    
-    <button class="button" onclick="realizarOperacion('+')">+</button>
-    <button class="button" onclick="realizarOperacion('-')">-</button>
-    <button class="button" onclick="realizarOperacion('*')">*</button>
-    <button class="button" onclick="realizarOperacion('/')">/</button>
-    
-    <p id="resultado"></p>
-    
+    <section class="section-t">
+        <div class="div-t">
+            <label for="valor1">Valor 1:</label>
+            <input type="number" id="valor1"><br><br>
+            <label for="valor2">Valor 2:</label>
+            <input type="number" id="valor2"><br><br>
+            
+            <button class="button" onclick="realizarOperacion('+')">+</button>
+            <button class="button" onclick="realizarOperacion('-')">-</button>
+            <button class="button" onclick="realizarOperacion('*')">*</button>
+            <button class="button" onclick="realizarOperacion('/')">/</button>
+            
+            <p id="resultado"></p>
+        </div>
     <script>
     function realizarOperacion(operador) {
         let valor1 = parseFloat(document.getElementById('valor1').value);
